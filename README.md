@@ -54,6 +54,8 @@ This is an example `logback.xml` that uses a common `PatternLayout` to encode a 
         </encoder>
     </appender>
 
+
+
     <!-- This is the kafkaAppender -->
     <appender name="kafkaAppender" class="com.github.danielwegener.logback.kafka.KafkaAppender">
             <encoder>
